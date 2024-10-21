@@ -10,3 +10,17 @@ Definir garantias de tempo de atividade e conectividade (geralmente entre 99,9% 
 Descrever como a Microsoft responderá caso não cumpra as especificações do SLA.
 Permite créditos de serviço ao cliente em caso de falha na entrega do serviço.
 
+# Configurando uma instância de Banco de Dados na Azure
+A Instância Gerenciada de SQL do Azure é um serviço PaaS totalmente gerenciado que oferece quase 100% de compatibilidade com o SQL Server. Principais características:
+Escalabilidade e alta disponibilidade, atualizações automáticas e backups isolamento de rede virtual (VNets), apoio à migração de bancos de dados locais
+Entre no portal do Azure
+Selecione SQL do Azure > Instância Gerenciada de SQL
+Escolha opções de configuração
+Escolha a configuração adequada para carga de trabalho
+Considere a migração existente de bancos de dados locais
+Utilize recursos avançados de segurança
+Monitore o desempenho após implantação
+A Instância Gerenciada oferece uma solução completa para mover cargas de trabalho de banco de dados para nuvem com o menor esforço de migração possível.
+
+
+
