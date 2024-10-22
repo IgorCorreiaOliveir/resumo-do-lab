@@ -91,5 +91,64 @@ Pontuação de segurança de identidade para medir e melhorar a postura de segur
 Revisões periódicas de acesso e gestão de concessões.
 O objetivo é criar uma estrutura de segurança robusta, centralizada nas identidades, para proteger recursos e dados na nuvem Azure.
 
+# Otimizando Custos no Azure
+
+A supervisão de custos no Azure envolve estratégias para gerenciar e reduzir os custos associados ao uso de serviços da nuvem Azure. Algumas práticas importantes incluem:
+
+Dimensionamento correto de recursos: Escolha o tamanho adequado de VMs e outros recursos para evitar sobreaquisição desnecessária.
+Uso de tags e organização de recursos: Categorizar recursos por departamento, projeto etc. para facilitar o rastreamento e controle de custos.
+Escalar recursos automaticamente: ajusta automaticamente o número de instâncias de VMs em resposta às variações de demanda.
+Desligue recursos quando não utilizados: Parar máquinas virtuais e outros recursos durante períodos de baixa atividade.
+Utilização planos de economia: Comprar capacidade reservada para cargas de trabalho previsíveis.
+Monitore e analise custos regularmente: Usar ferramentas do Azure para monitorar o uso e identificar oportunidades de otimização.
+Negociar preços: Explorar opções de negócios para volumes maiores de uso.
+Implementar políticas de governança: Definir limites e restrições para evitar gastos excessivos.
+
+# Gerenciando Politicas em Acessos Azure
+Gerenciar políticas de acesso no Azure envolve criar e aplicar regras para controlar quem pode acessar quais recursos. Algumas práticas importantes incluem:
+
+Usar o Azure Policy para criar definições de política que especifiquem condições e efeitos para recursos do Azure.
+Aplicar políticas em diferentes escopos (assinaturas, grupos de gerenciamento, grupos de recursos) conforme necessário.
+Criar iniciativas para agrupar políticas relacionadas e monitorar a conformidade em múltiplos recursos.
+Utilização de políticas de acesso condicional no Azure Active Directory para exigência de autenticação adicional baseada em fatores ou condições.
+Configure controles de acesso baseados em funções (RBAC) para gerenciar controles de recursos do Azure.
+Implementar políticas de acesso condicional para aplicações SaaS e locais.
+Usando o Azure AD Identity Protection para detecção e resposta a riscos de identidade.
+Crie pacotes de acesso para gerenciar fluxos de trabalho de acesso a recursos específicos.
+
+# Ferramentas de Implantação na Azure
+As ferramentas de implantação no Azure permitem automatizar e otimizar o processo de entrega de software. As principais ferramentas incluem:
+
+Azure DevOps: Plataforma completa de CI/CD que oferece pipelines de implantação, orquestração de testes e monitoramento.
+Azure Pipelines: Serviço de orquestração de pipelines que permite criar fluxos de trabalho de CI/CD.
+Azure Functions: Serviço de computação serverless para executar código em resposta a eventos.
+Azure Container Instances: Serviço para executar contêineres Docker sem gerenciar servidores.
+Azure Kubernetes Service (AKS): Plataforma gerenciada para implantar e gerenciar contêineres.
+Conjuntos de escala de VM do Azure: recursos de dimensionamento automático para máquinas virtuais.
+Azure App Service: Serviço PaaS para aplicações web hospedadas em diversas linguagens.
+Azure Traffic Manager: Ferramenta de balanceamento de carga para distribuição de tráfego entre regiões.
+Práticas recomendadas:
+
+Utilização de pipelines de CI/CD automatizados
+Implementar testes contínuos no pipeline
+Usar variáveis ​​de ambiente e segredos para configuração
+Configurar monitoramento e alertas
+Utilização de ferramentas como Azure Monitor para rastreamento de implantações
+
+# Monitoramento Inteligente com o Azure
+
+O Azure oferece ferramentas de monitoramento para fornecer insights e análises preditivas. Algumas características principais incluem:
+
+Azure Monitor: Plataforma de monitoramento unificada que coleta dados de diversos serviços Azure.
+Análise de logs e estatísticas: Coleta e processa dados em tempo real para identificar padrões e anormalidades.
+Machine Learning: Integração com serviços AI/ML para prever problemas e melhorar desempenho.
+Alertas personalizáveis: Notificações automáticas baseadas em critérios definidos.
+Visualizações e dashboards: Interface gráfica para visualização de métricas e KPIs.
+Correlação de eventos: Identificação de causas raiz de problemas complexos.
+Monitoramento preditivo: Previsão de falhas e anomalias futuras.
+Integração com serviços específicos: Exemplo, monitoramento de VMs, contêineres, redes.
+Exportação de dados: Facilita análise externa e integração com ferramentas de terceiros.
+Governança e conformidade: Regulamentações e políticas de monitoramento.
+
 
 
